@@ -9,6 +9,8 @@
 
 %define installable_zip 1
 
+%define droid_target_aarch64 1
+
 %define makefstab_skip_entries /tmp
 
 %define straggler_files\
