@@ -11,5 +11,10 @@
 
 %define makefstab_skip_entries /tmp
 
+%define straggler_files\
+    /selinux_version\
+    /service_contexts\
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
 
