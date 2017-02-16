@@ -11,12 +11,14 @@
 
 %define droid_target_aarch64 1
 
-%define makefstab_skip_entries /tmp
+%define makefstab_skip_entries /tmp /system
 
 %define straggler_files\
     /selinux_version\
     /service_contexts\
 %{nil}
+
+Requires: droid-system
 
 %include rpm/dhd/droid-hal-device.inc
 
