@@ -7,7 +7,8 @@
 %define vendor_pretty Sony
 %define device_pretty Xperia X
 
-%define installable_zip 1
+%define have_custom_img_boot 1
+%define have_custom_img_recovery 1
 
 %define droid_target_aarch64 1
 
