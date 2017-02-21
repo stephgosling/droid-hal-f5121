@@ -12,7 +12,7 @@
 
 %define droid_target_aarch64 1
 
-%define makefstab_skip_entries /tmp /system
+%define makefstab_skip_entries /tmp /system none /sys/fs/pstore
 
 %define straggler_files\
     /selinux_version\
