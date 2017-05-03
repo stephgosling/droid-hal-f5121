@@ -14,6 +14,7 @@
 
 %define device_variant -userdebug
 %define lunch_prefix aosp_
+%define pre_actions sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
 
 %define makefstab_skip_entries /system none /sys/fs/pstore
 
