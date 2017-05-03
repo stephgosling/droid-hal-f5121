@@ -13,7 +13,7 @@
 %define droid_target_aarch64 1
 
 %define device_variant -userdebug
-%define lunch_prefix aosp_
+%define lunch_device aosp_f5121
 %define pre_actions sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
 
 %define makefstab_skip_entries /system none /sys/fs/pstore
