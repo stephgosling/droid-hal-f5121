@@ -15,7 +15,6 @@
 %define device_variant -userdebug
 %define lunch_device aosp_f5121
 %define pre_actions sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
-%define have_vendor_src_for_obs 1
 
 %define makefstab_skip_entries /system none /sys/fs/pstore
 
